@@ -27,6 +27,7 @@ UR手臂 package來源參考https://github.com/fmauch/universal_robot.git ＆ ht
   6.roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
   7.roslaunch ur5_moveit_config moveit_rviz.launch config:=true 
 如果想用python控制手臂控制步驟7可以更換成python檔
+    rosrun ur_move_test ur_move_test_node.py
 
 
 補充：
